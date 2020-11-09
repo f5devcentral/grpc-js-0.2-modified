@@ -1,29 +1,4 @@
 {
-  "_from": "@grpc/grpc-js@0.2.0",
-  "_id": "@grpc/grpc-js@0.2.0",
-  "_inBundle": false,
-  "_integrity": "sha512-89xjKxo3iuc8Gsln3brtXfTUV8H2UPzWBEJ/iVD1YlSqp+LomEC1L700/PwyWRCX4rdJnOpuv4RCGE8zrOSlyA==",
-  "_location": "/@grpc/grpc-js",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "@grpc/grpc-js@0.2.0",
-    "name": "@grpc/grpc-js",
-    "escapedName": "@grpc%2fgrpc-js",
-    "scope": "@grpc",
-    "rawSpec": "0.2.0",
-    "saveSpec": null,
-    "fetchSpec": "0.2.0"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-0.2.0.tgz",
-  "_shasum": "841b91cd91debdc52ad8414d29d66ba3fe2b184e",
-  "_spec": "@grpc/grpc-js@0.2.0",
-  "_where": "/Users/kordonsky/F5Projects/f5-telemetry",
   "author": {
     "name": "Google Inc."
   },
@@ -56,23 +31,10 @@
   "keywords": [],
   "license": "Apache-2.0",
   "main": "build/src/index.js",
-  "name": "@grpc/grpc-js",
+  "name": "grpc-js-0.2-modified",
   "repository": {
     "type": "git",
-    "url": "https://github.com/grpc/grpc-node/tree/master/packages/grpc-js-core"
-  },
-  "scripts": {
-    "build": "npm run compile",
-    "check": "gts check",
-    "clean": "gts clean",
-    "compile": "tsc -p .",
-    "fix": "gts fix",
-    "format": "clang-format -i -style=\"{Language: JavaScript, BasedOnStyle: Google, ColumnLimit: 80}\" src/*.ts test/*.ts",
-    "lint": "tslint -c node_modules/google-ts-style/tslint.json -p . -t codeFrame --type-check",
-    "posttest": "npm run check",
-    "prepare": "npm run compile",
-    "pretest": "npm run compile",
-    "test": "gulp test"
+    "url": "https://github.com/f5devcentral/grpc-js-0.2-modified.git"
   },
   "types": "build/src/index.d.ts",
   "version": "0.2.0"
