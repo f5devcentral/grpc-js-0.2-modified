@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const events_1 = require("build/src/events");
+const events_1 = require("events");
 const _ = require("lodash");
 const stream_1 = require("stream");
 const constants_1 = require("./constants");

@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { EventEmitter } from 'build/src/events';
+import { EventEmitter } from 'events';
 import { Duplex, Readable, Writable } from 'stream';
 import { CallStream, StatusObject } from './call-stream';
 import { EmitterAugmentation1 } from './events';

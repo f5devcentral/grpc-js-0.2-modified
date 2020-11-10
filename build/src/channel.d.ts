@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { EventEmitter } from 'build/src/events';
+import { EventEmitter } from 'events';
 import { CallOptions, CallStream } from './call-stream';
 import { ChannelCredentials } from './channel-credentials';
 import { Metadata } from './metadata';

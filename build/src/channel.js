@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const events_1 = require("build/src/events");
+const events_1 = require("events");
 const http2 = require("http2");
 const tls_1 = require("tls");
 const url = require("url");
