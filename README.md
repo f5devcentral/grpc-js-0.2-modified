@@ -31,8 +31,13 @@ line 202 //session.unref(); *commented out
 
 Node 9.x or greater is required.
 
+original package npm link: 
+https://www.npmjs.com/package/@grpc/grpc-js/v/0.2.0
+
+original package npm download link: 
+
 ```sh
-npm install @grpc/grpc-js
+npm install @grpc/grpc-js@0.2.0
 ```
 
 ## Features
